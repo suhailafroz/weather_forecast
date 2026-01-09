@@ -32,8 +32,8 @@ async function main() {
     let city = document.getElementById("cname").value;
     let weatherKey = "0da6a82fa60dee88e41a736655a427b5"
     let iconURL = `https://openweathermap.org/img/wn/10d@2x.png`;
-    let weatherURL = `http://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${weatherKey}&units=metric`
-    let forecastURL = `http://api.openweathermap.org/data/2.5/forecast?q=${city}&appid=${weatherKey}&units=metric`
+    let weatherURL = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${weatherKey}&units=metric`
+    let forecastURL = `https://api.openweathermap.org/data/2.5/forecast?q=${city}&appid=${weatherKey}&units=metric`
     let img = document.getElementById("weatherIcon");
     let cityName = document.getElementById("cityName");
     let countryName = document.getElementById("countryName");
